@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda Chamett - Merch, Beats y Equipo de Música</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo de Chamett" class="logo" />
+    <h1>Tienda Chamett</h1>
+    <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="sobre-mi.html">Sobre mí</a> |
+        <a href="musica.html">Música</a> |
+        <a href="blog.html">Blog</a> |
+        <a href="Tienda.html">Tienda</a> |
+        <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Productos disponibles</h2>
+
+    <section class="productos">
+      
+      <!-- Merchandising -->
+      <article class="producto">
+        <img src="merch-camiseta.png" alt="Camiseta Chamett" />
+        <h3>Camiseta Chamett</h3>
+        <p>100% algodón, diseño exclusivo.</p>
+        <p><strong>Precio:</strong> $20 USD</p>
+
+        <!-- Botón de pago con PayPal -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="Anshleproduction@gmail.com">
+          <input type="hidden" name="item_name" value="Camiseta Chamett">
+          <input type="hidden" name="amount" value="20.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="submit" value="Comprar con PayPal">
+        </form>
+      </article>
+
+      <!-- Beats -->
+      <article class="producto">
+        <img src="Hoodie negron con diseño de chamett.png" alt="Chamett Hoodie" />
+        <h3>Chamett Hoodie con diseño</h3>
+        <p>100% algodón, diseño exclusivo</p>
+        <p><strong>Precio:</strong> $50 USD</p>
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="Anshleproduction@gmail.com">
+          <input type="hidden" name="item_name" value="Beat Hip Hop 1">
+          <input type="hidden" name="amount" value="50.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="submit" value="Comprar con PayPal">
+        </form>
+      </article>
+
+      <!-- Equipo de música -->
+      <article class="producto">
+        <img src="Chamett Sound Snapback.png" alt="Snapback con diseño" />
+        <h3>Chamett Snapback</h3>
+        <p>Calidad profesional para grabaciones en casa.</p>
+        <p><strong>Precio:</strong> $120 USD</p>
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="Anshleproduction@gmail.com">
+          <input type="hidden" name="item_name" value="Micrófono de estudio">
+          <input type="hidden" name="amount" value="120.00">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="submit" value="Comprar con PayPal">
+        </form>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chamett – Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
